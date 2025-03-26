@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "lahari.devops.project.bucket"
+  bucket = "lahari.flm.devops.project.bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
